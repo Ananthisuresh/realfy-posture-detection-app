@@ -1,0 +1,13 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Operating System Files
+.DS_Store
+Thumbs.db

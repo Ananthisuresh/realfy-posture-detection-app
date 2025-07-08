@@ -1,0 +1,26 @@
+/* Tailwind CSS setup */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom fonts or global styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic reset for elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure root element fills the viewport */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
