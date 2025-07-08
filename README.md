@@ -165,4 +165,3 @@ Please record a short video (1-2 minutes) demonstrating the deployed web applica
 
 **Demo Video Link:**
 [YOUR_DEMO_VIDEO_LINK_HERE]
-
