@@ -153,15 +153,11 @@ To deploy this application, you will need to deploy the frontend and backend sep
 4.  Expose the Flask-SocketIO server correctly.
 
 **Public Deployment URL:**
-[YOUR_PUBLIC_DEPLOYMENT_URL_HERE]
+[https://github.com/Ananthisuresh/realfy-posture-detection-app.git]- Github
+[https://realfy-posture-detection-app.vercel.app/] - Vercel
+
 
 ## Demo Video
 
-Please record a short video (1-2 minutes) demonstrating the deployed web application. The video should cover:
-
-1.  The deployed web app working (showing both video upload and webcam functionality if possible).
-2.  How the app detects and flags bad posture according to the defined rules.
-3.  Any specific code or logic you want to highlight (e.g., the angle calculation or rule implementation).
-
 **Demo Video Link:**
-[YOUR_DEMO_VIDEO_LINK_HERE]
+[https://youtu.be/vA7JJ4Casto]
