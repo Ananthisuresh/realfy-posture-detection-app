@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: realfy-posture-detection-app
+    env: python
+    buildCommand: ./build.sh
+    startCommand: python app.py
+    plan: free
