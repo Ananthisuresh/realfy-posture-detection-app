@@ -156,6 +156,9 @@ To deploy this application, you will need to deploy the frontend and backend sep
 [https://github.com/Ananthisuresh/realfy-posture-detection-app.git]- Github
 [https://realfy-posture-detection-app.vercel.app/] - Vercel
 
+Complete project link:
+[https://snddhr7s-5173.inc1.devtunnels.ms/]
+
 
 ## Demo Video
 
