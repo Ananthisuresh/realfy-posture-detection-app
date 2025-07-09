@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# Upgrade pip
-pip install --upgrade pip
+# Upgrade pip and dependencies
+pip install --upgrade pip setuptools wheel
 
-# Install mediapipe manually from source
-pip install --upgrade setuptools wheel
-pip install protobuf==3.20.3  # Required for mediapipe compatibility
-pip install opencv-python
-pip install git+https://github.com/google/mediapipe.git
-
-# Then install the rest
+# Install everything from requirements.txt first
 pip install -r requirements.txt
+
+# Then install mediapipe manually from GitHub
+pip install protobuf==3.20.3
+pip install git+https://github.com/google/mediapipe.git
