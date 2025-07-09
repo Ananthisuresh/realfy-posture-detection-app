@@ -8,6 +8,4 @@ gunicorn==20.1.0
 Flask-Cors==4.0.0
 mediapipe==0.8.10
 
-
-
 # Added for production deployment with Render/Heroku
