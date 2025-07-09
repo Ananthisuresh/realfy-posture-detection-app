@@ -1,10 +1,9 @@
 services:
   - type: web
-    name: realfy-posture-detection-app
+    name: realfy-posture-detection-backend
     env: python
-    buildCommand: ./build.sh
-    startCommand: python app.py
+    buildCommand: "./build.sh"
+    startCommand: "python app.py"
     envVars:
-  - key: PYTHON_VERSION
-    value: 3.10.13
-    plan: free
+      - key: PYTHON_VERSION
+        value: 3.10.13
