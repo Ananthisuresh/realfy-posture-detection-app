@@ -2,7 +2,7 @@ services:
   - type: web
     name: realfy-posture-detection-backend
     env: python
-    buildCommand: "./build.sh"
+    buildCommand: pip install -r requirements.txt
     startCommand: "python app.py"
     envVars:
       - key: PYTHON_VERSION
