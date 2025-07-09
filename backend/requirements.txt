@@ -6,7 +6,8 @@ opencv-python==4.9.0.80
 numpy==1.26.4
 gunicorn==20.1.0 
 Flask-Cors==4.0.0
-git+https://github.com/google/mediapipe.git@v0.8.10#egg=mediapipe
+mediapipe==0.8.10
+
 
 
 # Added for production deployment with Render/Heroku
